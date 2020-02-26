@@ -89,6 +89,17 @@ The `resume` method will only resume if the configuration for the
 connection (in this example, just the port) is the same. Otherwise we
 stop the old component and start the new component.
 
+## Running tests
+
+Using clojure tools.deps:
+```
+## clj
+clojure -A:test:test-runner
+
+## cljs
+clojure -A:cljs:test:test-runner
+```
+
 ## License
 
 Copyright © 2016 James Reeves
